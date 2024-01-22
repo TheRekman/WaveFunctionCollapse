@@ -1,7 +1,6 @@
 ﻿namespace WaveFunctionCollapse
 {
-    public class WaveFunctionCollapse2D
+    public class WaveFunctionCollapse2D<T>
     {
-
     }
 }
