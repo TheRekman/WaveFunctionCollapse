@@ -23,6 +23,11 @@ namespace WaveFunctionCollapse
             return res;
         }
 
+        public static bool IsSame<T>(IEnumerable<T> values1, IEnumerable<T> values2)
+        {
+            return true
+        }
+
         public static bool Correct2DCoordinate<T>(T[,] map, int x, int y) =>
             x >= 0 && y >= 0 && x < map.GetLength(0) && y < map.GetLength(1);
 
